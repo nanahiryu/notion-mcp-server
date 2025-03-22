@@ -6,13 +6,14 @@ Model Context Protocol（MCP）を使用して Notion の API と統合するサ
 
 1. リポジトリをクローンします
 2. `npm install`を実行します
-3. Cursor の設定を開きます:
+3. `npm run build`を実行してプロジェクトをビルドします
+4. Cursor の設定を開きます:
    - 設定 (Settings) > AI > Custom Tool Servers
    - 「Add New Server」をクリックします
    - 以下の情報を入力します:
      - Name: `notion`
      - Command: 以下のコマンド例を参照してください（環境に合わせて修正）
-4. 「Save」をクリックして設定を保存します
+5. 「Save」をクリックして設定を保存します
 
 ## コマンド例
 
