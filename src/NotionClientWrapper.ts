@@ -1,4 +1,4 @@
-export class NotionClientWrapper {
+export default class NotionClientWrapper {
   private notionToken: string;
   private baseUrl: string = "https://api.notion.com/v1";
   private headers: { [key: string]: string };
@@ -268,5 +268,3 @@ export class NotionClientWrapper {
     return response.json();
   }
 }
-
-export default NotionClientWrapper;

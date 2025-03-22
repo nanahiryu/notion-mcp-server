@@ -1,4 +1,4 @@
-import { commonIdDescription, NotionTool } from "../utils/common";
+import { commonIdDescription, NotionTool } from "../utils/common.js";
 
 export const deleteBlockTool: NotionTool = {
   name: "notion_delete_block",

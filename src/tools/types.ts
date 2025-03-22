@@ -41,13 +41,13 @@ export interface RetrieveUserArgs {
 }
 
 export interface RetrieveBotUserArgs {
-  random_string?: string;
+  random_string: string;
 }
 
 // Databases
 export interface CreateDatabaseArgs {
   parent: any;
-  title: any[];
+  title?: any[];
   properties: any;
 }
 

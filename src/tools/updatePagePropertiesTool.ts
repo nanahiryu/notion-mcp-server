@@ -1,4 +1,4 @@
-import { commonIdDescription, NotionTool } from "../utils/common";
+import { commonIdDescription, NotionTool } from "../utils/common.js";
 
 export const updatePagePropertiesTool: NotionTool = {
   name: "notion_update_page_properties",

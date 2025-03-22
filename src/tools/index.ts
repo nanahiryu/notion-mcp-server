@@ -1,15 +1,15 @@
 // Block Tools
-export { appendBlockChildrenTool } from "./appendBlockChildrenTool";
-export { retrieveBlockTool } from "./retrieveBlockTool";
-export { retrieveBlockChildrenTool } from "./retrieveBlockChildrenTool";
-export { deleteBlockTool } from "./deleteBlockTool";
+export { appendBlockChildrenTool } from "./appendBlockChildrenTool.js";
+export { retrieveBlockTool } from "./retrieveBlockTool.js";
+export { retrieveBlockChildrenTool } from "./retrieveBlockChildrenTool.js";
+export { deleteBlockTool } from "./deleteBlockTool.js";
 
 // Page Tools
-export { retrievePageTool } from "./retrievePageTool";
-export { updatePagePropertiesTool } from "./updatePagePropertiesTool";
+export { retrievePageTool } from "./retrievePageTool.js";
+export { updatePagePropertiesTool } from "./updatePagePropertiesTool.js";
 
 // User Tools
-export { listAllUsersTool } from "./listAllUsersTool";
+export { listAllUsersTool } from "./listAllUsersTool.js";
 
 // Rest of the tools will be imported as they are created
 export const allTools = [

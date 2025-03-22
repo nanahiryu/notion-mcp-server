@@ -1,4 +1,4 @@
-import { commonIdDescription, NotionTool } from "../utils/common";
+import { commonIdDescription, NotionTool } from "../utils/common.js";
 
 export const retrieveBlockChildrenTool: NotionTool = {
   name: "notion_retrieve_block_children",

@@ -1,5 +1,5 @@
-import { commonIdDescription, NotionTool } from "../utils/common";
-import { blockObjectSchema } from "../schema/blockObject";
+import { commonIdDescription, NotionTool } from "../utils/common.js";
+import { blockObjectSchema } from "../schema/blockObject.js";
 
 export const appendBlockChildrenTool: NotionTool = {
   name: "notion_append_block_children",
