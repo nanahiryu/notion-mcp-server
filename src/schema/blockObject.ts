@@ -1,4 +1,4 @@
-import { richTextObjectSchema } from "./richTextObject.js";
+import { richTextObjectSchema } from "./richTextObject";
 
 export const blockObjectSchema = {
   type: "object",

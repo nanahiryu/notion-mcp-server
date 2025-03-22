@@ -1,4 +1,4 @@
-import { NotionTool } from "../utils/common.js";
+import { NotionTool } from "../utils/common";
 
 export const listAllUsersTool: NotionTool = {
   name: "notion_list_all_users",
