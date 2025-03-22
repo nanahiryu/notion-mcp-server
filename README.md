@@ -10,24 +10,25 @@ Model Context Protocol（MCP）を使用して Notion の API と統合するサ
    - 設定 (Settings) > AI > Custom Tool Servers
    - 「Add New Server」をクリックします
    - 以下の情報を入力します:
-     - Name: `Notion MCP Server`
-     - Command: `NOTION_API_TOKEN=あなたのNotion APIトークン SECRET=あなたのシークレット node /あなたのパス/notion-mcp-server/build/index.js`
-       (注: `/あなたのパス/` はこのリポジトリのビルドされた index.js への絶対パスに置き換えてください)
+     - Name: `notion`
+     - Command: 以下のコマンド例を参照してください（環境に合わせて修正）
 4. 「Save」をクリックして設定を保存します
 
-## コマンドの例
+## コマンド例
 
 ### Mac の場合:
 
 ```
-NOTION_API_TOKEN=あなたのNotion APIトークン SECRET=あなたのシークレット node /Users/ユーザー名/path/to/notion-mcp-server/build/index.js
+env NOTION_API_TOKEN={your_notion_api_token} node {your_path_to_index.js}
 ```
 
 ### Windows の場合:
 
 ```
-set NOTION_API_TOKEN=あなたのNotion APIトークン && set SECRET=あなたのシークレット && node C:\Users\ユーザー名\path\to\notion-mcp-server\build\index.js
+set NOTION_API_TOKEN={your_notion_api_token} && node {your_path_to_index.js}
 ```
+
+注: `{your_path_to_index.js}` はビルドされた index.js への絶対パスに置き換えてください。
 
 ## 機能
 
