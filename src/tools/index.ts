@@ -10,8 +10,24 @@ export { updatePagePropertiesTool } from "./updatePagePropertiesTool.js";
 
 // User Tools
 export { listAllUsersTool } from "./listAllUsersTool.js";
+export { retrieveUserTool } from "./retrieveUserTool.js";
+export { retrieveBotUserTool } from "./retrieveBotUserTool.js";
 
-// Rest of the tools will be imported as they are created
+// Database Tools
+export { createDatabaseTool } from "./createDatabaseTool.js";
+export { queryDatabaseTool } from "./queryDatabaseTool.js";
+export { retrieveDatabaseTool } from "./retrieveDatabaseTool.js";
+export { updateDatabaseTool } from "./updateDatabaseTool.js";
+export { createDatabaseItemTool } from "./createDatabaseItemTool.js";
+
+// Comment Tools
+export { createCommentTool } from "./createCommentTool.js";
+export { retrieveCommentsTool } from "./retrieveCommentsTool.js";
+
+// Search Tool
+export { searchTool } from "./searchTool.js";
+
+// All tools list
 export const allTools = [
   // Block Tools
   "appendBlockChildrenTool",
@@ -25,16 +41,20 @@ export const allTools = [
 
   // User Tools
   "listAllUsersTool",
-
-  // These tools will be implemented and added to this list
   "retrieveUserTool",
   "retrieveBotUserTool",
+
+  // Database Tools
   "createDatabaseTool",
   "queryDatabaseTool",
   "retrieveDatabaseTool",
   "updateDatabaseTool",
   "createDatabaseItemTool",
+
+  // Comment Tools
   "createCommentTool",
   "retrieveCommentsTool",
+
+  // Search Tool
   "searchTool",
 ];
