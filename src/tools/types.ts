@@ -47,7 +47,7 @@ export interface RetrieveBotUserArgs {
 // Databases
 export interface CreateDatabaseArgs {
   parent: any;
-  title?: any[];
+  title: any[];
   properties: any;
 }
 

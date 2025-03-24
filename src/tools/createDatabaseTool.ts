@@ -25,6 +25,6 @@ export const createDatabaseTool = {
           "Property schema of database. The keys are the names of properties as they appear in Notion and the values are property schema objects.",
       },
     },
-    required: ["parent", "properties"],
+    required: ["parent", "properties", "title"],
   },
 };

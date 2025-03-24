@@ -223,7 +223,7 @@ async function main() {
               .arguments as unknown as CreateDatabaseArgs;
             const response = await notionClient.createDatabase(
               args.parent,
-              args.title || [],
+              args.title,
               args.properties
             );
             return {
